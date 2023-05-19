@@ -46,7 +46,7 @@ tr:nth-of-type(2n) {
   background: hsl(0 0% 73% /0.1);
 }
 
-@media (max-width: 650px) {
+@media (max-width: 720px) {
   th {
     display: none;
   }
@@ -68,7 +68,9 @@ tr:nth-of-type(2n) {
     font-weight: 700;
     text-transform: capitalize;
   }
+}
 
+@media (max-width: 1000px) {
   .pagination {
     margin-bottom: 0;
   }

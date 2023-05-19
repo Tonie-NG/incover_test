@@ -44,7 +44,7 @@ const Home = () => {
       ) : (
         <div className="wrapper">
           <table>
-            <caption>Table to display stuff </caption>
+            <caption>Table to Display Car Data </caption>
             <thead>
               <tr>
                 <th>Policy Number</th>

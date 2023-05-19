@@ -35,7 +35,6 @@ const Details = () => {
 
   useEffect(() => {
     itemdetails(id);
-    console.log(dummy[0]);
   }, [id]);
   return (
     <main className="details__container">
@@ -50,7 +49,7 @@ const Details = () => {
           <>
             <div className="left">
               <h1>Vehicle Information</h1>
-              <span>Certuficate Number : {data[0]?.CertificateNumber}</span>
+              <span>Certificate Number : {data[0]?.CertificateNumber}</span>
               <span>Chasis Number: {data[0]?.ChassisNo}</span>
               <span>Expiry Date: {data[0]?.DateExpired}</span>
               <span>Registration Date: {data[0]?.DateRegistered}</span>
