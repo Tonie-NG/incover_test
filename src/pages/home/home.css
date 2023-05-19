@@ -6,6 +6,8 @@ main {
   width: min(900px, 100% - 3rem);
   padding: 1rem;
   margin-inline: auto;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 table {
@@ -27,6 +29,7 @@ th {
 .pagination {
   display: flex;
   justify-content: center;
+  margin-bottom: -8rem;
 }
 
 caption {
