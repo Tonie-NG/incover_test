@@ -33,7 +33,6 @@ th {
 }
 
 caption {
-  /* background: hsl(0 0% 73% /0.5); */
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -68,5 +67,9 @@ tr:nth-of-type(2n) {
     content: attr(data-cell) ": ";
     font-weight: 700;
     text-transform: capitalize;
+  }
+
+  .pagination {
+    margin-bottom: 0;
   }
 }
